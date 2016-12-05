@@ -30,6 +30,20 @@ body {
  	padding-bottom: 2em;
 }
 
+.top-title{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	padding: 1em;
+	background-color: #333333;
+	transition: top 0.5s ease-in-out;
+}
+
+.nav-up {
+  top: -120px;
+}
+
 .title{
 	margin: 0;
 	padding: 1em;
@@ -121,15 +135,7 @@ a img:active, a img:hover, a img:focus{
 	max-height: 2.5em;
 }
 
-.top-title{
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	padding: 1em;
-	background-color: #333333;
-	transition: top 0.2s ease-in-out;
-}
+
 
 iframe{
 	max-width: 100%;
