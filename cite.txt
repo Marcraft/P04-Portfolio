@@ -1,0 +1,5 @@
+Hide Header: https://medium.com/@mariusc23/hide-header-on-scroll-down-show-on-scroll-up-67bbaae9a78c#.rxwifkrc1
+Cover bg: https://content.pulse.ea.com/content/battlefield-portal/en_US/news/battlefield-1/road-to-battlefield-1-incarcerator-mission/_jcr_content/featuredImage/renditions/rendition1.img.jpg
+icons: https://material.io/icons/
+facebook icon: https://en.facebookbrand.com/assets/f-logo
+facebook icon: https://brand.twitter.com/en.html

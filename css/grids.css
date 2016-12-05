@@ -1,0 +1,228 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+[class^='grid-col-'] {
+	float: left;
+	padding: 0; 
+}
+
+.grid-col-1of2, .grid-col-1of4, .grid-col-1of3, .grid-col-2of3 {
+	width: 100%;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
+}
+
+.grid-col-2of6{
+	width: 33.33%;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.button-nav {
+	margin-top: 0;
+}
+
+body{
+	padding-top: 7em;
+}
+
+
+h1, h2, p{
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.top-link-container{
+	text-align: center;
+}
+
+.top-img-container{
+	text-align: center;
+}
+
+.feedback-form {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.feedback-form-row{
+	padding: 0.5rem 0rem;
+}
+
+.feedback-form-label{
+	width: 9.2rem;
+	display:inline-block;
+}
+
+.booking-form {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.booking-form-row{
+	padding: 0.5rem 0rem;
+}
+
+.booking-form-label{
+	width: 9.2rem;
+	display:inline-block;
+}
+
+.grid-col-2of8{
+	width: 100%;
+}
+
+.grid-row::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.grid-col-1of4 > .nav-main-item {
+	width: 100%;
+}
+
+.login-button {
+	right: 10%;
+}
+
+.about-icon{
+	padding-top: 0;
+}
+
+
+
+
+@media (min-width: 35rem) {
+
+	body{
+		padding-top: 4.8em;
+	}
+
+	.top-link-container{
+		text-align: right;
+	}
+
+	.top-img-container{
+		text-align: left;
+	}
+
+	.grid-col-1of2 {
+		width: 50%;
+	}
+
+	.grid-col-1of2:last-of-type {
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
+	}
+
+	.grid-col-1of4 {
+		width: 50%;
+	}
+
+	.grid-col-2of8 {
+		width: 25%;
+	}
+
+	.grid-col-2of3 {
+		width: 66.666%;
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
+	}
+
+	.grid-col-1of3 {
+		width: 33.333%;
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
+	}
+
+	.grid-col-2of6{
+		width: 33.33%;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	.login-button {
+		right: 5%;
+	}
+
+
+	.button-nav {
+		margin-top: 0.5rem;
+	}
+
+	.about-icon{
+		padding-top: 3em;
+	}
+
+}
+
+
+
+@media (min-width: 65rem) {
+
+	.grid-col-2of3 {
+		width: 66.666%;
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
+	}
+
+	.grid-col-1of3 {
+		width: 33.333%;
+		padding-left: 0.5rem;
+		padding-right: 0.5rem;
+	}
+
+	.grid-col-1of4 {
+		width: 25%;
+	}
+
+	.grid-col-2of8 {
+		width: 25%;
+	}
+
+	.grid-col-4of5 {
+		width: 80%;
+	}
+
+	.grid-col-1of2 {
+		width: 50%;
+	}
+
+	.grid-col-2of6{
+		width: 33.33%;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	.login-button {
+		right: 5%;
+	}
+
+	h1, h2, p{
+		padding-left: 1rem;
+	}
+
+	.feedback-form {
+		padding-left: 1rem;
+	}
+
+	.booking-form{
+		padding-left: 1rem;
+	}
+
+
+	.button-nav {
+		margin-top: 0.5rem;
+	}
+
+	textarea{
+		width: 38rem;
+	}
+}
+
+
+
+
+

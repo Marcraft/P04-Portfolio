@@ -1,0 +1,255 @@
+::selection {
+  background: #a0cbe8;
+}
+::-moz-selection {
+  background: #a0cbe8;
+}
+
+body {
+  font-family: 'Open sans', Arial, sans-serif;
+    padding: 0;
+    color: #FFF;
+  background-color: #1B2025;
+}
+
+.container{
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.top-container{
+  max-width: 67rem;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.para-content{
+  max-width: 47rem;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+.title{
+  margin: 0;
+  padding: 1em;
+  background-color: #333333;
+  background-image: url("../img/titlebg.jpg");
+  background-size: cover;
+    background-position: center top; 
+  text-align: center;
+}
+
+.about-title{
+  margin: 0;
+  padding: 1em;
+  background-color: #333333;
+  background-image: url("../img/aboutbg.jpg");
+  background-size: cover;
+    background-position: center; 
+  text-align: center;
+}
+
+.work-title{
+  margin: 0;
+  padding: 1em;
+  background-color: #333333;
+  text-align: center;
+}
+
+.intro{
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+}
+
+.about{
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+}
+
+.ocean{
+  margin: 0;
+  padding: 2em 1em;
+  text-align: center;
+  background-color: #1B3035;
+}
+
+.panzer{
+  margin: 0;
+  padding: 2em 1em;
+  text-align: center;
+  background-color: #31355B;
+}
+
+.work{
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+}
+
+.cutting-line{
+  border-bottom: 1px #888 solid;
+}
+
+h1, h2, h3{
+   font-family: 'Square', Arial, sans-serif;
+}
+
+h1{
+  font-size: 2.5em;
+}
+
+img {
+  height: auto; 
+  max-width: 100%;
+}
+
+.icon{
+  margin-top: 1em;
+  opacity: 1.0;
+}
+
+a img{
+  -webkit-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0.6;
+}
+
+a img:active, a img:hover, a img:focus{
+  opacity: 1.0;
+}
+
+.top-img{
+  max-height: 2.5em;
+}
+
+.top-title{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 1em;
+  background-color: #333333;
+  transition: top 0.2s ease-in-out;
+}
+
+iframe{
+  max-width: 100%;
+  border: 0;
+}
+
+.in-text-link {
+  display: inline-block;
+  color: #238FBC;
+  text-decoration: none;
+  -webkit-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+.in-text-link:hover, .in-text-link:focus {
+  color: #12638E;
+}
+
+.button {
+  padding: 0.5em 2em;
+  margin: 1em;
+  color: #FFF;
+  font-size: 1.2rem;
+  font-family: 'Square', Arial, sans-serif;
+  border-radius: 0.3em;
+  background-color: #238FBC;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button:hover, .button:focus {
+  background-color: #12638E;
+}
+
+.top-link {
+  display: inline-block;
+  margin: 0.5em 0.75em;
+    
+  color: #AAA;
+  text-decoration: none;
+  -webkit-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+.top-link-active {
+  display: inline-block;
+  margin: 0.5em 0.75em;
+    
+  color: #238FBC;
+  text-decoration: none;
+  -webkit-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+  
+}
+
+.top-link:hover, .top-link:focus {
+  color: #FFF;
+}
+
+.top-link-active:hover, .top-link-active:focus {
+  color: #FFF;
+}
+
+.bottom-link {
+  display: inline-block;
+  margin: 0.5em 0.75em;
+  right: 5%;
+  color: #AAA;
+  text-decoration: none;
+  -webkit-transition: color 0.5s ease-out;
+  transition: color 0.5s ease-out;
+}
+
+.bottom-link:hover, .bottom-link:focus {
+  color: #FFF;
+}
+
+.comment-input {
+  width: 50%;
+  height: 10rem;
+}
+
+.text-input {
+ background-color: #c3c3c3;
+ border-width : 0;
+}
+
+.unordered-list {
+  list-style-type: circle;
+  padding: 0.5em 2em;
+  color: #FFF;
+  background-color: #4B595A;
+}
+
+.ordered-list {
+  list-style-type: lower-alpha;
+  padding: 0.5em 2em;
+  color: #FFF;
+  background-color: #4B595A;
+}
+
+.about-lines{
+  padding-bottom: 0.5em;
+  border-bottom: solid #AAA 1px;
+}
+
+code{
+  background-color: #666;
+  padding: 0.75em;
+}
+
+footer{
+  width: 100%;
+  background-color: #333333;
+  text-align: center;
+  padding: 1em;
+}
+

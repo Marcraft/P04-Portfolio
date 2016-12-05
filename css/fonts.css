@@ -1,0 +1,13 @@
+@font-face {
+	font-family: 'Open sans';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Square';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/square721-bt-roman.ttf');
+}
